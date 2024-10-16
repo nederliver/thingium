@@ -10,7 +10,7 @@
 	"contact": {
 		"modrinth": "https://modrinth.com/user/nederliver"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/thingium/icon.png",
 	"environment": "*",
 	"entrypoints": {
