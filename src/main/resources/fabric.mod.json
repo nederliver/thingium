@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "thingium",
+	"version": "${version}",
+	"name": "thingium",
+	"description": "by nederliver",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"modrinth": "https://modrinth.com/user/nederliver"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/thingium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nederliver.thingium.Thingium"
+		],
+		"fabric-datagen": [
+			"net.nederliver.thingium.ThingiumDataGenerator"
+		],
+		"client": [
+			"net.nederliver.thingium.ThingiumClient"
+		]
+	},
+	"mixins": [
+		"thingium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
