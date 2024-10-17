@@ -8,7 +8,8 @@
 		"Me!"
 	],
 	"contact": {
-		"modrinth": "https://modrinth.com/user/nederliver"
+		"modrinth": "https://modrinth.com/user/nederliver",
+		"sources": "https://github.com/nederliver/thingium"
 	},
 	"license": "MIT",
 	"icon": "assets/thingium/icon.png",
